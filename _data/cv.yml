@@ -29,67 +29,70 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Teaching Assistant - Academic Excellence 
+      institution: Cornell University
+      year: 2023-present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Lead 2-hour workshops each week with a co-instructor for a Object oriented programming and data structures class.
+        - Prepared worksheets, presentations, and implemented them in modern active learning approaches.
+    - title: Software Engineering Intern 
+      institution: National Research Institute Slovenia, Parallel Computing Lab
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Explored and evaluated methods for binding code from sizable C++ projects (maxCliqueSearch) to Python to make it more accessible to 10+ research teams to reuse.
+        - Wrote detailed documentation on GitLab for using the C++ library and improved the program’s help() function.
+        - Tested and verified correctness of the C++ code base in a Linux environment to achieve expected functionality.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Software Engineering Intern
+      institution: National Research Institute Slovenia, AI Lab
+      year: 2021
       description:
+        - Collaborated in smart assistant development for oil refineries.
+        - Formatted and processed data for further semantic classification using Transformers and NumPy frameworks.
+        - Explored methods used to optimize semantic classification for speech recognition.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Intern
+      institution: Department of EE and CS, University of Maribor
+      year: 2020-2021
+      description:
+        - Helped develop particle detectors in collaboration with CERN (European Council for Nuclear Research).
+        - Used EGSnrc simulation software in Linux to program particle collisions for different materials and filter dimensions.
+        - Explored optimal combinations of materials for minimised electron spread patters and accurate particle energy detection.
 
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: WiiTutor (Free online tutoring organization)
+      year: 2021-present
+      description: 
+        - Developed a website using HTML, CSS and JavaScript to promote the project.
+        - Helped 350+ students in understanding material and improved their test results, held tutoring sessions for groups and individuals, provided practice problems.
+        -  Offered free tutoring help to 10+ schools and an orphanage in Slovenia to mitigate effects of distance learning.
+    - title: Simulating Evolving Artificial Life 
+      year: 2022 Oct - Dec
+      description: 
+        - Worked with a two partners to build a simulator game of a world where animals wander around, eat, reproduce, and evolve.
+        - Build a parser that converts a critter program into an AST (abstract syntax tree) with context-free grammar.
+        - Build an interpreter for the critter language using the visitor design patter and a simulator that maintains and changes the state of the model.  
+        - Build the game’s GUI using JavaFX and tied the parser, interpreter, simulator, and the GUI into a functioning game using the MVC design patter.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - Research award from international generic pharmaceutical company (Krka) for research in Materials Science
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computer Graphics 
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - realistic rendering
+        - XR
+    - title: 3D Computer Vision
       items:
-        - Description 1.
-        - Description 2.
+        - scene understanding
+        - content generation
+     
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

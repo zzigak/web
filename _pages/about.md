@@ -1,23 +1,23 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:  Computer Science and Mathematics @ <a href='https://www.cornell.edu/'>Cornell</a>
+
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Cornell University, Ithaca</p>
+    <p>zk66 at cornell dot edu</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Hi, there! I’m Žiga, a freshman undergraduate at Cornell, studying Computer Science and Mathematics.  My interests include computer graphics, 3D computer vision, and machine learning, specifcially in connection to realistic rendering, automatic content generation, and XR.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm fortunate enough to be resaerching with prof. <a href='http://abedavis.com/'>Abe Davis</a> at Cornell this summer as a part of the CSURP summer program.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently I'm a TA for a core CS class on OOP and DS and the tech subteam lead for CIFT - Cornell Innovative Film and Technology club.

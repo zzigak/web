@@ -67,6 +67,8 @@
     {%- endif %}
 {%- endif %}
 
+
+
 {%- if site.serve_schema_org %}
 
     <!-- Schema.org -->
@@ -100,10 +102,7 @@
         {%- capture link -%}https://telegram.me/{{ site.telegram_username }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
-    {%- if site.linkedin_username -%}
-        {%- capture link -%}https://www.linkedin.com/in/{{ site.linkedin_username }}{%- endcapture -%}
-        {%- assign sameaslinks = sameaslinks | push: link -%}
-    {%- endif -%}
+    
     {%- if site.twitter_username -%}
         {%- capture link -%}https://twitter.com/{{ site.twitter_username }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
