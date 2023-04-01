@@ -59,9 +59,13 @@
         - Used EGSnrc simulation software in Linux to program particle collisions for different materials and filter dimensions.
         - Explored optimal combinations of materials for minimised electron spread patters and accurate particle energy detection.
 
-- title: Projects
+- title: Projects and Clubs
   type: time_table
   contents:
+    - title: Cornell Innovative Film and Technology club - Technology lead
+      year: 2023-present
+      description:
+        - Developed a website using Next.JS, React, TS, and SCSS to promote the club and display the clubs projects / products.
     - title: WiiTutor (Free online tutoring organization)
       year: 2021-present
       description: 
