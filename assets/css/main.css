@@ -5,44 +5,13 @@
 /*******************************************************************************
  * Themes
  ******************************************************************************/
-/* 
 :root {
   --global-bg-color: #ffffff;
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
-  --global-footer-bg-color: #1C1C1D;
-  --global-footer-text-color: #e8e8e8;
-  --global-footer-link-color: #ffffff;
-  --global-distill-app-color: #828282;
-  --global-divider-color: rgba(0,0,0,.1);
-  --global-card-bg-color: #ffffff;
-
-  .fa-sun {
-    display : none;
-  }
-  .fa-moon {
-    padding-left: 10px;
-    padding-top: 12px;
-    display : block;
-  }
-
-  .repo-img-light {
-    display: block;
-  }
-  .repo-img-dark {
-    display: none;
-  }
-}*/
-:root {
-  --global-bg-color: #ffffff;
-  --global-code-bg-color: rgba(181, 9, 172, 0.05);
-  --global-text-color: #000000;
-  --global-text-color-light: #828282;
-  --global-theme-color: #de2323;
-  --global-hover-color: #e54f4f;
+  --global-theme-color: #0076df;
+  --global-hover-color: #00369f;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
@@ -58,38 +27,8 @@
   padding-top: 12px;
   display: block;
 }
-:root .repo-img-light {
-  display: block;
-}
-:root .repo-img-dark {
-  display: none;
-}
 
 html[data-theme=dark] {
-  --global-bg-color: #000000;
-  --global-code-bg-color: #2c3237;
-  --global-text-color: #e8e8e8;
-  --global-text-color-light: #828282;
-  --global-theme-color: #2ce0a1;
-  --global-hover-color: #1cbd85;
-  --global-footer-bg-color: #e8e8e8;
-  --global-footer-text-color: #1C1C1D;
-  --global-footer-link-color: #000000;
-  --global-distill-app-color: #e8e8e8;
-  --global-divider-color: #2ce0a1;
-  --global-card-bg-color: #212121;
-}
-html[data-theme=dark] .fa-sun {
-  padding-left: 10px;
-  padding-top: 12px;
-  display: block;
-}
-html[data-theme=dark] .fa-moon {
-  display: none;
-}
-
-/*
-html[data-theme='dark'] {
   --global-bg-color: #1C1C1D;
   --global-code-bg-color: #2c3237;
   --global-text-color: #e8e8e8;
@@ -102,25 +41,16 @@ html[data-theme='dark'] {
   --global-distill-app-color: #e8e8e8;
   --global-divider-color: #424246;
   --global-card-bg-color: #212529;
-
-  .fa-sun {
-    padding-left: 10px;
-    padding-top: 12px;
-    display : block;
-  }
-  .fa-moon {
-    display : none;
-  }
-
-  .repo-img-light {
-    display: none;
-  }
-  .repo-img-dark {
-    display: block;
-  }
+}
+html[data-theme=dark] .fa-sun {
+  padding-left: 10px;
+  padding-top: 12px;
+  display: block;
+}
+html[data-theme=dark] .fa-moon {
+  display: none;
 }
 
-*/
 /******************************************************************************
  * Content
  ******************************************************************************/
@@ -128,6 +58,9 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-weight: normal;
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   scroll-margin-top: 66px;
@@ -142,11 +75,11 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 960px;
 }
 
 .profile img {
-  width: 100%;
+  width: 200px;
 }
 
 /******************************************************************************
@@ -851,17 +784,14 @@ d-byline a:hover, d-article d-byline a:hover {
 d-article {
   border-top-color: var(--global-divider-color) !important;
 }
-d-article p, d-article h1, d-article h2, d-article h3, d-article h4, d-article h5, d-article h6, d-article li, d-article table {
+d-article a, d-article p, d-article h1, d-article h2, d-article h3, d-article h4, d-article h5, d-article h6, d-article li, d-article table {
   color: var(--global-text-color) !important;
 }
-d-article h1, d-article h2, d-article hr, d-article table, d-article table th, d-article table td {
+d-article a, d-article h1, d-article h2, d-article hr, d-article table, d-article table th, d-article table td {
   border-bottom-color: var(--global-divider-color) !important;
 }
-d-article a {
-  color: var(--global-theme-color) !important;
-}
 d-article a:hover {
-  color: var(--global-theme-color) !important;
+  border-bottom-color: var(--global-hover-color) !important;
 }
 d-article b i {
   display: inline;
